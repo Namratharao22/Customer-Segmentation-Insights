@@ -1,39 +1,13 @@
-Mall Customer Segmentation
+This project performs customer segmentation using the K-Means clustering algorithm on a mall customer dataset. The aim is to group customers into distinct clusters based on their age, gender, annual income, and spending score. These insights help businesses understand different customer types and develop targeted marketing strategies.
 
+The workflow includes:
 
+Data preprocessing and scaling
 
-This project groups mall customers into different segments using the K-Means clustering algorithm.
+Finding the optimal number of clusters using the Elbow Method
 
-Dataset Features
-Gender
+Applying K-Means clustering
 
-Age
+Visualizing the clusters in 2D using PCA
 
-Annual Income (k$)
-
-Spending Score (1-100)
-
-What This Project Does
-Loads and explores the data
-
-Scales the features
-
-Uses the Elbow Method to find the best number of clusters
-
-Applies K-Means clustering
-
-Visualizes customer groups in 2D
-
-Tools Used
-Python
-
-pandas
-
-matplotlib
-
-seaborn
-
-scikit-learn
-
-Output
-A plot showing clusters of customers and a summary of each segment.
+Analyzing cluster-wise behavior for business insights
