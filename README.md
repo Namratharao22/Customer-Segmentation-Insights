@@ -1,4 +1,7 @@
 Mall Customer Segmentation
+
+
+
 This project groups mall customers into different segments using the K-Means clustering algorithm.
 
 Dataset Features
